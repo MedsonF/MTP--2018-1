@@ -1,4 +1,5 @@
 # MTP--2018-1 // Medon Jose ALves da Silva Frazao. Matricula:11721EAU015
+
 #include <stdio.h>
 
 void bin_dec (char bin[])
