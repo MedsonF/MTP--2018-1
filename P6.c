@@ -38,7 +38,7 @@ int main()
 	while(a >= 5 && a <= 20)
 	{
 	    resultado = som(num, a);
-	    printf("\nA Media entre os numeros digitados = %.2f", divisao(resultado, a));
+	    printf("\nA Media entre os numeros = %.2f", divisao(resultado, a));
 	    return 0;
     }
 }
