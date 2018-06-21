@@ -1,4 +1,4 @@
-# MTP--2018-1 // Medon Jose ALves da Silva Frazao. Matricula:11721EAU015
+// Medon Jose ALves da Silva Frazao Matrícula:11721EAU015
 
 #include <stdio.h>
 
