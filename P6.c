@@ -1,4 +1,4 @@
-# MTP-2018-1 //Medson José Alves da Silva Frazão Matrícula: 11721EAU015
+//Medson José Alves da Silva Frazão Matrícula: 11721EAU015
 #include <stdio.h>
 
 int som(int num[], int a)
