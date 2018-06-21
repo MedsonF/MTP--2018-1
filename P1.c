@@ -1,4 +1,4 @@
-//Nome: Medson José Alves da Siva Frazão Matrúcula :11721EAU015
+//Nome: Medson José Alves da Siva Frazão Matrícula :11721EAU015
 #include <stdio.h>
 
 int main ()
