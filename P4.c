@@ -1,24 +1,27 @@
 //Medson José Frazão Matrícula:11721EAU015
-# include <stdio.h>
+#include <stdio.h>
 
-int main() 
+int main ()
+
 {
-	int cum=0, i;
-	char numero[256];
 
-	printf ("Digite um numero: ");
-	scanf ("%s", &numero);
-	getchar ();
-	
-	for (i=0; numero[i] != '\0'; i++)
+char bits[256];
+int cum=0, i;
+
+printf ("Digite um numero: ");
+scanf ("%s", bits);
+getchar();
+
+for (i=0; bits[i] != '\0'; i++)
+{
+	if(bits[i] >=48 && bits[i]<=57)
 	{
-		if (numero[i] >=48 && numero [i] <= 57)
-		{
-			numero[i] = numero[i] - '0';
-			cum = cum*10 + numero[i];
-		}
+		bits[i]=bits[i]-'0';
+		cum= cum*10 + bits[i];
 	}
-	
-	printf ("\nO numero digitado: %d", cum);
-	return 0;
+
+}
+
+printf ("O numero digitado: %d", cum);
+return 0;
 }
