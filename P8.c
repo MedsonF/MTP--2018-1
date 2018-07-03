@@ -1,4 +1,5 @@
 //Medson José Alves da Silva Frazão Matrícula: 11721EAU015
+
 #include <stdio.h>
 #include <stdlib.h>
 void gera_numeros(float * vetor, int tam)
